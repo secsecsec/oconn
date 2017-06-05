@@ -10,7 +10,7 @@ import (
 	"github.com/coopernurse/gorp"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/revel/revel"
-	"github.com/revel/revel/modules/jobs/app/jobs"
+	"github.com/revel/modules/jobs/app/jobs"
 )
 
 var DB *gorp.DbMap
